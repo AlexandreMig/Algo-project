@@ -23,7 +23,7 @@ static void DFS(int[] G, int v, bool[] visited, int next_i, int weight)
         }
         if(!visited[i] && G[next_i, i] == i)
         {
-            DFS(G, v, visited, i)
+            DFS(G, v, visited, i);
         }
 
     }
