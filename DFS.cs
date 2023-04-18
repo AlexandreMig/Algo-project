@@ -7,6 +7,7 @@ int AddWeight(int v, int weight)
     weight = weight + v;
     return weight;
 }
+
 static void DFS(int[] G, int v, bool[] visited, int next_i, int weight)
 {
     visited[next_i] = true;

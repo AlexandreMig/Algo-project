@@ -1,7 +1,17 @@
+using System;
 
-int Algorithm(int[] G, int vertex, int total)
+int main()
 {
-    return 0;
+    graph[] G;
+    int v;
+    bool[] visited;
+    int next_i;
+    int weight;
+    Console.Write("Please enter the graph:");
+    int graphsize = 9;
+    for(int i = 0; i < graphsize, i++)
+    {
+        G[i] = Console.ReadLine();
+    }
 }
-
 
