@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Algo_project</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BFS.h" />
+    <None Remove="DFS.h" />
+    <None Remove="dijkstra.h" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="BFS.h" />
+    <Compile Include="DFS.h" />
+    <Compile Include="dijkstra.h" />
+  </ItemGroup>
+
+</Project>

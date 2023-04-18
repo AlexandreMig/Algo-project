@@ -1,0 +1,5 @@
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.csproj.AssemblyReference.cache
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.AssemblyInfoInputs.cache
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.AssemblyInfo.cs
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.csproj.CoreCompileInputs.cache
