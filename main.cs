@@ -1,10 +1,18 @@
-class AlgoProject
-{
-    static DijkstraAlgorithm dijkstra = new DijkstraAlgorithm();
-    static void Main(string[] args)
-    {
-        // Your application logic goes here
+using System;
 
+int main()
+{
+    graph[] G;
+    int v;
+    bool[] visited;
+    int next_i;
+    int weight;
+    Console.Write("Please enter the graph:");
+    int graphsize = 9;
+    for(int i = 0; i < graphsize, i++)
+    {
+        G[i] = Console.ReadLine();
+    }
         // Call the Dijkstra method
         int vertex = 0; // Set the value for vertex
         int total = 0; // Set the value for total
@@ -47,22 +55,3 @@ class AlgoProject
     }
 }
 
-
-internal class GraphList
-{
-    private class Edge
-    {
-        public int Node_Adjacent; //adjacent node initialization
-        public Edge next;
-    }
-
-    private class Graph
-    {
-        public bool visited; //boolean call for visited
-        public Edge head;
-        public int weight;
-    }
-    Graph[] graphlinks; //array for input 
-    int graphSize = 9; //size of graph should be 9
-    public GraphList() { }
-}

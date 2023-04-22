@@ -7,10 +7,11 @@ int AddWeight(int v, int weight)
     weight = weight + v;
     return weight;
 }
+
 static void DFS(int[] G, int v, bool[] visited, int next_i, int weight)
 {
     visited[next_i] = true;
-    Console.Write("<" + G[si] + ">");
+    Console.Write("<" + G[next_i] + ">");
     for( int i = 0; i < v; i ++)
     {
         if(i == next_i)
