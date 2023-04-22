@@ -1,6 +1,7 @@
 ﻿using System;
 using Algo.Dijkstra;
 using Algo.BFS;
+using Algo.DFS;
 
 namespace Algo {
     public class Program
@@ -51,12 +52,15 @@ namespace Algo {
 
             DijkstraAlgorithm dijkstra = new DijkstraAlgorithm();
             BFSAlgorithm bfs = new BFSAlgorithm();
+            DFSAlgorithm DFS = new DFSAlgorithm();
 
             int totalDijkstra = dijkstra.Dijkstra(sample2, goalState);
             int totalBFS = bfs.BFS(example, goalStateFile);
+            int totalDFS = DFS.DFS_Calc(example, goalState);
 
             Console.WriteLine($"Result for Dijkstra: {totalDijkstra}");
             Console.WriteLine($"Result for BFS: {totalBFS}");
+            Console.WriteLine($"Result for DFS: {totalDFS}");
         }
     }
 }

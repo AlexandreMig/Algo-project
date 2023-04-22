@@ -36,7 +36,7 @@ int main()
         };
 
         total = dijkstra.Dijkstra(sample2, goalState);
-        weight = graph.DFS(sample2);
+        
 
         Console.WriteLine($"Result: {total}"); // Print the result to the console
 
