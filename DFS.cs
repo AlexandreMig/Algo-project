@@ -2,10 +2,6 @@
 // Output: All vertices reachable from v //labeled as discovered
 using System;
 
-graph graph = new graph(10);
-graph.DFS();
-
-
 public class graph
 {
     LinkedList<int>[] G;
