@@ -42,10 +42,11 @@ public class graph
         }
     }
 
-    internal void DFS_Calc( int v, bool[] visited)
+    internal void DFS_Calc( int v, bool[] visited, int weight)
     {
         visited[v] = true;
         Console.Write("<" + v + ">");
+        weight = weight + v;
         if(G[v] != null)
         {
             foreach (var i in G[v])
@@ -56,11 +57,14 @@ public class graph
                 }
             }
         }
+        return weight;
     }
 
     internal void DFS()
     {
+        int weight = 0;
         bool[] visited = new bool[G.Length + 1];
-        DFS_Calc(1, visited);
+        DFS_Calc(1, visited, weight);
+        return weight;
     }
 }
