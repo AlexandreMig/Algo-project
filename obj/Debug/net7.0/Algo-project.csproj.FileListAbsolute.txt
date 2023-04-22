@@ -3,3 +3,13 @@ C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documen
 C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.AssemblyInfoInputs.cache
 C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.AssemblyInfo.cs
 C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.csproj.CoreCompileInputs.cache
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\bin\Debug\net7.0\Algo-project.exe
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\bin\Debug\net7.0\Algo-project.deps.json
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\bin\Debug\net7.0\Algo-project.runtimeconfig.json
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\bin\Debug\net7.0\Algo-project.dll
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\bin\Debug\net7.0\Algo-project.pdb
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.dll
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\refint\Algo-project.dll
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.pdb
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.genruntimeconfig.cache
+C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\ref\Algo-project.dll

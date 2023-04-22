@@ -11,13 +11,6 @@
   <ItemGroup>
     <None Remove="BFS.h" />
     <None Remove="DFS.h" />
-    <None Remove="dijkstra.h" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="BFS.h" />
-    <Compile Include="DFS.h" />
-    <Compile Include="dijkstra.h" />
   </ItemGroup>
 
 </Project>

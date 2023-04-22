@@ -1,7 +1,7 @@
 // Input: A graph G and a vertex v of G
 // Output: All vertices reachable from v //labeled as discovered
 using System;
-
+/*
 int AddWeight(int v, int weight)
 {
     weight = weight + v;
@@ -28,4 +28,4 @@ static void DFS(int[] G, int v, bool[] visited, int next_i, int weight)
 
     }
     Console.Write("cost of procedure: " + weight);    
-}
+}*/
