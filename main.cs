@@ -2,17 +2,6 @@ using System;
 
 int main()
 {
-    graph[] G;
-    int v;
-    bool[] visited;
-    int next_i;
-    int weight;
-    Console.Write("Please enter the graph:");
-    int graphsize = 9;
-    for(int i = 0; i < graphsize; i++)
-    {
-        G[i] = Console.ReadLine();
-    }
         // Call the Dijkstra method
         int vertex = 0; // Set the value for vertex
         int total = 0; // Set the value for total
@@ -47,11 +36,11 @@ int main()
         };
 
         total = dijkstra.Dijkstra(sample2, goalState);
+        weight = graph.DFS(sample2);
 
         Console.WriteLine($"Result: {total}"); // Print the result to the console
 
         // Wait for user input before exiting
         Console.ReadLine();
-    }
 }
 
