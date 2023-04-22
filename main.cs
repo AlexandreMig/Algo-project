@@ -9,7 +9,7 @@ int main()
     int weight;
     Console.Write("Please enter the graph:");
     int graphsize = 9;
-    for(int i = 0; i < graphsize, i++)
+    for(int i = 0; i < graphsize; i++)
     {
         G[i] = Console.ReadLine();
     }

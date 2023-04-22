@@ -2,31 +2,65 @@
 // Output: All vertices reachable from v //labeled as discovered
 using System;
 
-int AddWeight(int v, int weight)
-{
-    weight = weight + v;
-    return weight;
-}
+graph graph = new graph(10);
+graph.DFS();
 
-static void DFS(int[] G, int v, bool[] visited, int next_i, int weight)
+
+public class graph
 {
-    visited[next_i] = true;
-    Console.Write("<" + G[next_i] + ">");
-    for( int i = 0; i < v; i ++)
+    LinkedList<int>[] G;
+
+    public Graph(int v)
     {
-        if(i == next_i)
-        {
-            continue;
-        }
-        if( i == 3)
-        {
-            Console.WriteLine();
-        }
-        if(!visited[i] && G[next_i, i] == i)
-        {
-            DFS(G, v, visited, i);
-        }
-
+        G = new LinkedList<int>[v];
     }
-    Console.Write("cost of procedure: " + weight);    
+
+    public void AddEdge(int intitial, int v, bool visited = true)
+    {
+        if(G[intitial] == null)
+        {
+            G[intitial] = new G<int>();
+            G[intitial].AddFirst(v);
+        }
+        else
+        {
+            var last = G[intitial].Last;
+            G[intitial].AddAfter(last, v);
+        }
+        if(visited)
+        {
+            if(G[v] == null)
+            {
+                G[v] = new GC<int>();
+                G[v].AddFirst(intitial);
+            }
+            else
+            {
+                var last = G[v].Last;
+                G[v].AddAfter(last, intitial);
+            }
+        }
+    }
+
+    internal void DFS_Calc( int v, bool[] visited)
+    {
+        visited[v] = true;
+        Console.Write("<" + v + ">");
+        if(G[v] != null)
+        {
+            foreach (var i in G[v])
+            {
+                if(!visited[i] == true)
+                {
+                    DFS_Calc(i, visited);
+                }
+            }
+        }
+    }
+
+    internal void DFS()
+    {
+        bool[] visited = new bool[G.Length + 1];
+        DFS_Calc(1, visited);
+    }
 }
