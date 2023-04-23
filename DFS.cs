@@ -6,8 +6,7 @@ namespace Algo.DFS
     public partial class DFSAlgorithm
     {
         Stack<Node> knownStates = new Stack<Node>();
-        List<int>[] visited = new List<int[]>();
-
+        List<int[]> visited = new List<int[]>();
         public int  DFS_Calc( int[] start, int[] goal, Node node = null)
         {
             if(!canSolve(start, 3, 3))
@@ -121,7 +120,7 @@ namespace Algo.DFS
             {
                 while (knownStates.Count > 0)
                 {
-                    Node newNode = knownStates.pop();
+                    Node newNode = knownStates.Pop();
                     if (DFS_Calc(newNode.State, goal, newNode) == 1)
                     {
                         string currentOrder = "";
