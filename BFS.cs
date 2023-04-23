@@ -63,6 +63,9 @@ namespace Algo.BFS
 
                     newState = GenerateNextState(start, 4, 3);
                     EnqueueIfNotVisited(newState, node);
+                    
+                    newState = GenerateNextState(start, 6, 3);
+                    EnqueueIfNotVisited(newState, node);
                     break;
 
                 case 4: //1, 3, 5, 7

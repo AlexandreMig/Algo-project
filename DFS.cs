@@ -64,6 +64,9 @@ namespace Algo.DFS
 
                     newState = GenerateNextState(start, 4, 3);
                     StackIfNotVisited(newState, node);
+
+                    newState = GenerateNextState(start, 6, 3);
+                    StackIfNotVisited(newState, node);
                     break;
 
                 case 4: //1, 3, 5, 7
