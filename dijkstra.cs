@@ -8,7 +8,6 @@ namespace Algo.Dijkstra
 
         public int Dijkstra(int[] start, int[] goal, Node node = null)
         {
-            
             if (start.SequenceEqual(goal))
             {
                 if (node == null)
@@ -85,22 +84,30 @@ namespace Algo.Dijkstra
                     }                                                                     
                     break;                                                                
                                                                                           
-                case 3: //0, 4                                                            
+                case 3: //0, 4, 6                                                          
                                                                                           
                     newState = GenerateNextState(start, 0, 3);                            
                     if (!visited.Any(arr => arr.SequenceEqual(newState)))                 
                     {                                                                     
                         knownStates.Enqueue(new Node(newState, node.Cost + node.State[0], node.State[0], node), node.Cost + node.State[0]);
-                        visited.Add(newState);                                            
-                    }                                                                     
+                        visited.Add(newState);
+                    }
+
+
+                    newState = GenerateNextState(start, 4, 3);
+                    if (!visited.Any(arr => arr.SequenceEqual(newState)))
+                    {
+                        knownStates.Enqueue(new Node(newState, node.Cost + node.State[4], node.State[4], node), node.Cost + node.State[4]);
+                        visited.Add(newState);
+                    }                                                       
                                                                                           
                                                                                           
-                    newState = GenerateNextState(start, 4, 3);                            
+                    newState = GenerateNextState(start, 6, 3);                            
                     if (!visited.Any(arr => arr.SequenceEqual(newState)))                 
                     {                                                                     
-                        knownStates.Enqueue(new Node(newState, node.Cost + node.State[4], node.State[4], node), node.Cost + node.State[4]);
+                        knownStates.Enqueue(new Node(newState, node.Cost + node.State[6], node.State[6], node), node.Cost + node.State[6]);
                         visited.Add(newState);                                            
-                    }                                                                     
+                    }       
                     break;                                                                
                                                                                           
                 case 4: //1, 3, 5, 7                                                      
@@ -134,22 +141,29 @@ namespace Algo.Dijkstra
                     }                                                                     
                     break;                                                                
                                                                                           
-                case 5: //2, 4                                                            
+                case 5: //2, 4, 8                                                       
                                                                                           
                                                                                           
                     newState = GenerateNextState(start, 2, 5);                            
                     if (!visited.Any(arr => arr.SequenceEqual(newState)))                 
                     {                                                                     
                         knownStates.Enqueue(new Node(newState, node.Cost + node.State[2], node.State[2], node), node.Cost + node.State[2]);
-                        visited.Add(newState);                                            
-                    }                                                                     
-                                                                                          
-                    newState = GenerateNextState(start, 4, 5);                            
-                    if (!visited.Any(arr => arr.SequenceEqual(newState)))                 
-                    {                                                                     
+                        visited.Add(newState);
+                    }
+
+                    newState = GenerateNextState(start, 4, 5);
+                    if (!visited.Any(arr => arr.SequenceEqual(newState)))
+                    {
                         knownStates.Enqueue(new Node(newState, node.Cost + node.State[4], node.State[4], node), node.Cost + node.State[4]);
-                        visited.Add(newState);                                            
-                    }                                                                     
+                        visited.Add(newState);
+                    }
+
+                    newState = GenerateNextState(start, 8, 5);
+                    if (!visited.Any(arr => arr.SequenceEqual(newState)))
+                    {
+                        knownStates.Enqueue(new Node(newState, node.Cost + node.State[8], node.State[8], node), node.Cost + node.State[8]);
+                        visited.Add(newState);
+                    }
                     break;                                                                
                                                                                           
                 case 6: //3, 7                                                            
@@ -218,8 +232,8 @@ namespace Algo.Dijkstra
                     Node newNode = knownStates.Dequeue();
                     if (Dijkstra(newNode.State, goal, newNode) == 1)
                     {
-                        string currentOrder = "";
-
+                        //string currentOrder = "";
+                        //
                         //for (int j = 0; j < newNode.State.Length; j++)
                         //{
                         //    if (newNode.State[j] == 0)
