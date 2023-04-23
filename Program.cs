@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;  
 using Algo.Dijkstra;
 using Algo.BFS;
 using Algo.DFS;
@@ -54,7 +55,7 @@ namespace Algo {
             BFSAlgorithm bfs = new BFSAlgorithm();
             DFSAlgorithm DFS = new DFSAlgorithm();
 
-            int totalDijkstra = dijkstra.Dijkstra(sample2, goalState);
+            int totalDijkstra = dijkstra.Dijkstra(example, goalState);
             int totalBFS = bfs.BFS(example, goalStateFile);
             int totalDFS = DFS.DFS_Calc(example, goalState);
 

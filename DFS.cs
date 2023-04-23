@@ -1,6 +1,5 @@
 // Input: A graph G and a vertex v of G
 // Output: All vertices reachable from v //labeled as discovered
-using System;
 namespace Algo.DFS
 {
 
