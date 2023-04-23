@@ -122,7 +122,7 @@ namespace Algo.DFS
                 while (knownStates.Count > 0)
                 {
                     Node newNode = knownStates.pop();
-                    if (BFS(newNode.State, goal, newNode) == 1)
+                    if (DFS_Calc(newNode.State, goal, newNode) == 1)
                     {
                         string currentOrder = "";
 
