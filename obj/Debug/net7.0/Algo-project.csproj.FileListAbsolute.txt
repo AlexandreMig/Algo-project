@@ -13,3 +13,11 @@ C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documen
 C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.pdb
 C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\Algo-project.genruntimeconfig.cache
 C:\Users\DarienHenrie\OneDrive - TheHenries\Backup\Misc\Data\Misc\Github\Documents\Algo-project\obj\Debug\net7.0\ref\Algo-project.dll
+C:\Users\dylla\OneDrive\Documents\GitHub\Algo-project\obj\Debug\net7.0\Algo-project.csproj.AssemblyReference.cache
+C:\Users\dylla\OneDrive\Documents\GitHub\Algo-project\obj\Debug\net7.0\Algo-project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dylla\OneDrive\Documents\GitHub\Algo-project\obj\Debug\net7.0\Algo-project.AssemblyInfoInputs.cache
+C:\Users\dylla\OneDrive\Documents\GitHub\Algo-project\obj\Debug\net7.0\Algo-project.AssemblyInfo.cs
+C:\Users\dylla\OneDrive\Documents\GitHub\Algo-project\obj\Debug\net7.0\Algo-project.csproj.CoreCompileInputs.cache
+C:\Users\dylla\OneDrive\Documents\GitHub\Algo-project\obj\Debug\net7.0\Algo-project.dll
+C:\Users\dylla\OneDrive\Documents\GitHub\Algo-project\obj\Debug\net7.0\refint\Algo-project.dll
+C:\Users\dylla\OneDrive\Documents\GitHub\Algo-project\obj\Debug\net7.0\Algo-project.pdb

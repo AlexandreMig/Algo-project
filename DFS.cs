@@ -5,8 +5,8 @@ namespace Algo.DFS
 
     public partial class DFSAlgorithm
     {
-        Stack <Node> knownStates = new Stack<Node>();
-        LinkedList<int>[] visited;
+        Stack<Node> knownStates = new Stack<Node>();
+        List<int>[] visited = new List<int[]>();
 
         public int  DFS_Calc( int[] start, int[] goal, Node node = null)
         {
