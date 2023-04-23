@@ -9,7 +9,7 @@ namespace Algo.DFS
         Stack <Node> knownStates = new Stack<Node>();
         LinkedList<int>[] visited;
 
-        internal void DFS_Calc( int[] start, int[] goal, Node node = null)
+        public int  DFS_Calc( int[] start, int[] goal, Node node = null)
         {
             if(!canSolve(start, 3, 3))
             {
@@ -117,6 +117,7 @@ namespace Algo.DFS
                     StackIfNotVisited(newState, node);
                     break;
             }
+
             if (node.Parent == null)
             {
                 while (knownStates.Count > 0)
@@ -175,6 +176,7 @@ namespace Algo.DFS
                 return (inv + empt) % 2 != 0;
             }
         }
+        
         void StackIfNotVisited(int[] newState, Node node)
         {
             if (!visited.Any(arr => arr.SequenceEqual(newState)))
