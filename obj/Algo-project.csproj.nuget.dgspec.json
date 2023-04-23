@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dylla\\OneDrive\\Documents\\GitHub\\Algo-project\\Algo-project.csproj": {}
+    "C:\\Users\\DarienHenrie\\OneDrive - TheHenries\\Backup\\Misc\\Data\\Misc\\Github\\Documents\\Algo-project\\Algo-project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dylla\\OneDrive\\Documents\\GitHub\\Algo-project\\Algo-project.csproj": {
+    "C:\\Users\\DarienHenrie\\OneDrive - TheHenries\\Backup\\Misc\\Data\\Misc\\Github\\Documents\\Algo-project\\Algo-project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dylla\\OneDrive\\Documents\\GitHub\\Algo-project\\Algo-project.csproj",
+        "projectUniqueName": "C:\\Users\\DarienHenrie\\OneDrive - TheHenries\\Backup\\Misc\\Data\\Misc\\Github\\Documents\\Algo-project\\Algo-project.csproj",
         "projectName": "Algo-project",
-        "projectPath": "C:\\Users\\dylla\\OneDrive\\Documents\\GitHub\\Algo-project\\Algo-project.csproj",
-        "packagesPath": "C:\\Users\\dylla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dylla\\OneDrive\\Documents\\GitHub\\Algo-project\\obj\\",
+        "projectPath": "C:\\Users\\DarienHenrie\\OneDrive - TheHenries\\Backup\\Misc\\Data\\Misc\\Github\\Documents\\Algo-project\\Algo-project.csproj",
+        "packagesPath": "C:\\Users\\DarienHenrie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DarienHenrie\\OneDrive - TheHenries\\Backup\\Misc\\Data\\Misc\\Github\\Documents\\Algo-project\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dylla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DarienHenrie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
