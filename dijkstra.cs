@@ -1,4 +1,6 @@
 
+namespace Algo.Dijkstra
+{
 public partial class DijkstraAlgorithm
 {
     PriorityQueue<Node, int> knownStates = new PriorityQueue<Node, int>();
@@ -258,4 +260,5 @@ public partial class DijkstraAlgorithm
             Parent = parent;
         }
     }
+}
 }
