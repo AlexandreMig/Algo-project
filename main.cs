@@ -82,6 +82,8 @@ namespace Algo {
             Console.WriteLine($"Result for Dijkstra: {totalDijkstra}");
             Console.WriteLine($"Result for BFS: {totalBFS}");
             Console.WriteLine($"Result for DFS: {totalDFS}");
+
+            Console.ReadLine();
         }
     }
 }
